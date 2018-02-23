@@ -1,0 +1,131 @@
+    body{
+        font: 15px/1.5 Arial, Helvetica, sans-serif;
+        padding: 0;
+        margin:0;
+        background-color: #D6DBDF;
+      }
+      /*global*/
+      .container{
+        width:80%;
+        marigin-auto;
+        overflow: hidden;
+      }
+
+      /*header*/
+      header{
+        background:#5D6D7E ;
+        color:#ECC70D ;
+        padding-top:30px;
+        min-height: 130px;
+        border-bottom: #ECC70D  5px solid;
+      }
+      ul{
+        margin: 0;
+        padding: 0;
+      }
+      .button_1{
+        height: 38px;
+        background: #D35400;
+        border: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        color:#ffffff;
+      }
+
+      header a {
+        color:#ECC70D    ;
+        text-decoration: none ;
+        text-transform: uppercase;
+        font-size: 15px;
+      }
+
+      header li{
+        float: left;
+        display: inline;
+        padding: 0 20px 0 20px;
+
+      }
+      header #branding{
+        float: left;
+
+      }
+      header #branding h1{
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 20px;
+      }
+      header nav{
+        float: right;
+        margin-top: 50px;
+      }
+      header .highlight, header  .current a {
+        color: #D35400;
+        font-weight: bold;
+      }
+
+    header a: hover{
+        color: #cccccc;
+        font-weight: bold;
+      }
+
+      /*shoecase */
+      #showcase{
+        min-height: 400px;
+        background: url('../image/showcase.jpg')no-repeat 0 -400px;
+        text-align: center;
+        color: #ECC70D;
+
+      }
+      #showcase h1{
+        margin-top: 100px;
+        font-size: 55px;
+        margin-bottom: 10px;
+      }
+      #showcase p{
+        font-size: 30px;
+      }
+
+      /*newsletter*/
+      #newsletter{
+        padding: 30px;
+        color:#ECC70D;
+        background:#5D6D7E;
+
+      }
+      #newsletter h1{
+        float: left;
+      }
+      #newsletter form{
+        float: right;
+        margin-top: 15px;
+      }
+      #newsletter input[type="email"]{
+        padding: 4px;
+        height: 25px;
+        width: 250px;
+      }
+
+      /*boxes*/
+      #boxes{
+        margin-top: 20px;
+
+      }
+      #boxes .box{
+        margin-right: 35px;
+        float: left;
+        width:20%;
+        text-align: center;
+        padding: 20px;
+
+      }
+      #boxes .box img{
+        width: 200px;
+      }
+
+      footer{
+        padding: 10px;
+        margin-top: 20px;
+        color: #ffffff ;
+        background-color: #D35400  ;
+        text-align: center;
+      }
